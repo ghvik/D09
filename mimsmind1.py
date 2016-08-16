@@ -18,7 +18,7 @@ def guess_a_number():
         num_digits = int(sys.argv[1])
     else:
         num_digits = 3
-    secret_number = 3#randint(0, 10**num_digits - 1)
+    secret_number = randint(0, 10**num_digits - 1)
     secret_number = to_0_padded_string(secret_number, num_digits)
     guesses = 0
     maxrounds = (2**num_digits) + num_digits
