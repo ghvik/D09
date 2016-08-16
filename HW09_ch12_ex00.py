@@ -13,7 +13,8 @@
 # Imports
 
 # Body
-
+def sumall(*summands):
+    return sum(summands)
 
 ##############################################################################
 def main():   # DO NOT CHANGE BELOW
